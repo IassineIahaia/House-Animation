@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 img {
@@ -17,4 +20,31 @@ h1{
     font-weight: 500;
     letter-spacing: -0.1rem;
     line-height: 1.25;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+section{
+    position: relative;
+    width: 100vw;
+    background-color: #0f0f0f;
+    color: #fff;
+}
+
+.intro,  .outro{
+    height: 100svh;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro h1, .outro h1{
+    width: 60%;
+    text-align: center;
+    line-height: 1.1;
 }
