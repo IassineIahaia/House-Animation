@@ -30,7 +30,7 @@ p{
 
 section{
     position: relative;
-    width: 100vw;
+    width: 100%;
     background-color: #0f0f0f;
     color: #fff;
 }
@@ -47,4 +47,11 @@ section{
     width: 60%;
     text-align: center;
     line-height: 1.1;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25svh;
 }
